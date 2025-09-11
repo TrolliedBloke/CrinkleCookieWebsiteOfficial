@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContactPage</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <div class="navbar">
+      <img class="navbar__logo" src="/imgs/Logo.png" alt="Cookie" />
+      <ul class="navbar__list">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/index.html">About</a></li>
+        <li><a href="/index.html">Menu</a></li>
+        <li><a href="/index.html">Gallery</a></li>
+      </ul>
+      <button class="navbar__button">
+        <a
+          href="https://docs.google.com/forms/d/1tzMSwA5aO6zb9gaaC6K6iLOzZbnoy2l1z9LttfQlQuM/viewform?edit_requested=true"
+          >Contact</a
+        >
+      </button>
+    </div>
+
+    <!-- Contact Form -->
+
+    <input
+      type="text"
+      name="name"
+      placeholder="Your Name"
+      class="contact-inputs"
+      required
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Your Email"
+      class="contact-inputs"
+      required
+    />
+    <textarea
+      name="message"
+      placeholder="Your Message"
+      class="contacts-inputs"
+      required
+    ></textarea>
+    <button type="submit">Submit</button>
+  </body>
+</html>
