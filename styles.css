@@ -135,7 +135,7 @@ hr {
 .menu__grid .item {
   background: #ffffff;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 1.7rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: center;
@@ -147,12 +147,13 @@ hr {
 }
 
 .menu__grid .item img {
-  width: 100%;
+  width: 50%;
   height: 200px;
   object-fit: cover;
   border-style: solid;
   border-radius: 10px;
   margin-bottom: 1rem;
+  object-position: center bottom;
 }
 
 .menu__grid .item p {
