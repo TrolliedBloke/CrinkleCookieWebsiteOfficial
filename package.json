@@ -1,0 +1,23 @@
+{
+  "name": "crinklecookies",
+  "version": "1.0.0",
+  "description": "Arianna's Crinkle Cookie Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrolliedBloke/CrinkleCookiesWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrolliedBloke/CrinkleCookiesWebsite/issues"
+  },
+  "homepage": "https://github.com/TrolliedBloke/CrinkleCookiesWebsite#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
